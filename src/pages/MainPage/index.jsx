@@ -28,7 +28,7 @@ const MainPage = () => {
 
   useEffect(() => {
       (async () => await loadData())();
-  }, []);
+  });
   const handleLogout = () => {
     console.log("logout");
     logout();
