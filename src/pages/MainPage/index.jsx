@@ -23,7 +23,7 @@ const MainPage = () => {
         setloadingError(true)
         
     }
-
+    
   };
 
   useEffect(() => {
